@@ -11,7 +11,7 @@ class LandingPage extends StatefulWidget {
 
 class _LandingPageState extends State<LandingPage> {
 
-  String aboutme="Iam Btech 3rd year student from CSE background lives in Visakhapatnam from ANITS college.Intrested in Flutter App Development and Competitive Coding in C++14.";
+  String aboutme="Iam Btech 3rd year student from CSE background and lives in Visakhapatnam from ANITS college.Intrested in Flutter App Development and Competitive Coding in C++14.";
 
   
 _launchURL(String url) async {
@@ -49,7 +49,7 @@ _launchURL(String url) async {
         elevation: 0,
         actions: [
           IconButton(
-            onPressed: () {
+            onPressed: () {    
              _launchURL("https://arrowloki.github.io/");
          },
 
